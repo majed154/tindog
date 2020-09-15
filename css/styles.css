@@ -1,0 +1,159 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.iphone6 {
+  transform: rotate(20deg);
+  width: 50%;
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+  top: 2px;
+}
+
+/* nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* download buttons */
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+}
+
+.featurebox {
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col {
+  padding: 3% 2%;
+  text-align: center;
+
+}
+
+@media (max-width: 1028px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    }
+    #title {
+      text-align: center;
+    }
+
+
+}
+
+/* call to action */
+
+#cta {
+  padding: 15% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+
+
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footerbtn {
+    margin: 3% 1%;
+}
